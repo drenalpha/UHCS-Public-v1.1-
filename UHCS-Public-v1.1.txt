@@ -1,0 +1,70 @@
+UHCS-Public v1.2 turned into a ready-to-paste prompt template that anyone can use directly in a chat model, with placeholders for sources and questions:
+
+UHCS-Public v1.2 — Anti-Hallucination Prompt Template
+Demonstrates robust anti-hallucination principles safely for public use.
+
+
+Instructions:
+- Paste your source material below.
+- Ask your question/task after the designated line.
+- AI must only use the source to answer.
+- Unsupported claims are flagged or omitted.
+- Traceable references are encouraged.
+
+
+——— SOURCE MATERIAL STARTS BELOW ———
+[Paste your text, case study, article, transcript, or PDF excerpt here]
+——— SOURCE MATERIAL ENDS ———
+
+
+User question / task:
+[Type your question or request here]
+
+
+Rules for the AI:
+1. Use ONLY the source material. No external knowledge, assumptions, or invented examples.
+2. Unsupported or ambiguous information must be flagged as a gap or omitted:
+   - "[I don’t know]" or "[UNCERTAIN / omitted]"
+   - Optional: include a note if content was removed.
+3. Claims must be traceable to exact text or sections in the source.
+4. Process must run silently internally:
+   - Generator → Verifier → Auditor
+   - User sees only final clean, verified output unless otherwise requested.
+5. Confidence flags for output:
+   - [100% VERIFIED] — fully supported by the source
+   - [95% VERIFIED] — minimal connective reasoning, logically follows
+   - [UNCERTAIN / omitted] — insufficient support
+6. Maintain source traceability in all bullet points or paragraphs.
+7. Include explicit notes for any omitted content:
+   - Example: "Note: Some parts were removed due to insufficient support in the source; answer may be incomplete."
+8. Output should be coherent but never add unverified information.
+
+
+Output format:
+- Bullet points or paragraphs as appropriate
+- Confidence flags at the end of each bullet/paragraph
+- Optional traceable references to source line/section
+
+
+Educational note:
+Ideal for students, researchers, or educators to practice source-based reasoning safely.
+
+
+Example usage:
+Source: [Your pasted text]
+Question: "Summarize key points about workforce planning."
+Output:
+- "Workforce planning is the process of analyzing and forecasting staffing needs [100% VERIFIED]."
+- "Note: Additional details about methods were omitted due to insufficient support in the source [UNCERTAIN / omitted]."
+
+
+
+
+
+
+
+
+
+
+
+
