@@ -4,8 +4,13 @@
 **Tagline:**  
 Demonstrates robust anti-hallucination principles safely for public use.
 
----
+----------
+📄 Full Prompt File
 
+You can view or download the complete UHCS-Public v1.1 prompt here:
+
+👉 UHCS-Public-v1.1.txt
+----------
 ## Overview
 
 UHCS-Public v1.1 is an AI prompt designed to reduce hallucinations and ensure answers are based **only on user-provided source material**.  
